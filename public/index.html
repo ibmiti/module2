@@ -14,16 +14,14 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!-- ideally this would be in it's own file  -->
 <script>
-
-
-// giving credit - where credit is due 
-
 
         if ('geolocation' in navigator) {
             console.log('geolocation available');
             navigator.geolocation.getCurrentPosition(position => {
-              
+                // giving credit - where credit is due 
                 const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
                 // the leaflet map
@@ -54,7 +52,7 @@
 
 <div style="height:180px;" id='mymap'></div>
 
-    <h1>Data Selfie App</h1>
+    <h1>Call the aliens</h1>
 
     <p>
         latitude  : <span id='latitude'></span>&deg; <br />
